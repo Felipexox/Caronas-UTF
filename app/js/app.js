@@ -17,6 +17,14 @@ app.config(function($routeProvider){
     templateUrl : "./partials/sobre.html",
     controller : "sobreCtrl"
   })
+  .when("/caronas",{
+    templateUrl : "./partials/sobre.html",
+    controller : "caronasCtrl"
+  })
+  .when("/criar-caronas",{
+    templateUrl : "./partials/criar-carona.html",
+    controller : "criar-caronaCtrl"
+  })
 
 
 });
